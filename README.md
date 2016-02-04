@@ -1,2 +1,1 @@
-# ExpressTemplate
-Default Express project template
+## swift-express-project-template
