@@ -72,10 +72,12 @@
 		9609B4D01C5FC0DC00141FAB = {
 			isa = PBXGroup;
 			children = (
-				9609B4DB1C5FC0DC00141FAB /* src */,
+				9609B4EB1C5FC2A000141FAB /* app */,
+				9609B4EC1C5FC2BF00141FAB /* views */,
 				9609B4EE1C5FC2EC00141FAB /* public */,
 				9609B4F01C5FC31800141FAB /* Frameworks */,
 				9609B4DA1C5FC0DC00141FAB /* Products */,
+				9609B4E31C5FC0DC00141FAB /* Info.plist */,
 				9609B4F11C5FC51A00141FAB /* Cartfile */,
 			);
 			sourceTree = "<group>";
@@ -86,16 +88,6 @@
 				9609B4D91C5FC0DC00141FAB /* template.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		9609B4DB1C5FC0DC00141FAB /* src */ = {
-			isa = PBXGroup;
-			children = (
-				9609B4EB1C5FC2A000141FAB /* app */,
-				9609B4EC1C5FC2BF00141FAB /* views */,
-				9609B4E31C5FC0DC00141FAB /* Info.plist */,
-			);
-			path = src;
 			sourceTree = "<group>";
 		};
 		9609B4EB1C5FC2A000141FAB /* app */ = {
@@ -307,7 +299,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/src/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.swiftexpress.template;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -324,7 +316,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/src/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.swiftexpress.template;
 				PRODUCT_NAME = "$(TARGET_NAME)";
