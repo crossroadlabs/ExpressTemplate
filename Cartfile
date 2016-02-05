@@ -1,1 +1,1 @@
-git "ssh://git@git.crossplusplus.com/swift-express.git" "develop"
+github "crossroadlabs/Express" "master"
