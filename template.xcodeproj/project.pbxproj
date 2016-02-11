@@ -19,6 +19,10 @@
 		968A3BC61C63A56D00E4AFCC /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 968A3BC41C63A56D00E4AFCC /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		968A3BC81C63A57E00E4AFCC /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968A3BC71C63A57E00E4AFCC /* SwiftyJSON.framework */; };
 		968A3BC91C63A57E00E4AFCC /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 968A3BC71C63A57E00E4AFCC /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		96E0C04E1C6D435B00CA926F /* PathToRegex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E0C04C1C6D435B00CA926F /* PathToRegex.framework */; };
+		96E0C04F1C6D435B00CA926F /* PathToRegex.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 96E0C04C1C6D435B00CA926F /* PathToRegex.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		96E0C0501C6D435B00CA926F /* Regex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E0C04D1C6D435B00CA926F /* Regex.framework */; };
+		96E0C0511C6D435B00CA926F /* Regex.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 96E0C04D1C6D435B00CA926F /* Regex.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,8 +32,10 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				96E0C0511C6D435B00CA926F /* Regex.framework in Embed Frameworks */,
 				968A3BB31C639C8900E4AFCC /* Express.framework in Embed Frameworks */,
 				968A3BC31C63A55D00E4AFCC /* Mustache.framework in Embed Frameworks */,
+				96E0C04F1C6D435B00CA926F /* PathToRegex.framework in Embed Frameworks */,
 				968A3BC01C63A53F00E4AFCC /* BrightFutures.framework in Embed Frameworks */,
 				968A3BC61C63A56D00E4AFCC /* Result.framework in Embed Frameworks */,
 				968A3BC91C63A57E00E4AFCC /* SwiftyJSON.framework in Embed Frameworks */,
@@ -51,6 +57,8 @@
 		968A3BC11C63A55D00E4AFCC /* Mustache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mustache.framework; path = Carthage/Build/Mac/Mustache.framework; sourceTree = "<group>"; };
 		968A3BC41C63A56D00E4AFCC /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/Mac/Result.framework; sourceTree = "<group>"; };
 		968A3BC71C63A57E00E4AFCC /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/Mac/SwiftyJSON.framework; sourceTree = "<group>"; };
+		96E0C04C1C6D435B00CA926F /* PathToRegex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PathToRegex.framework; path = Carthage/Build/Mac/PathToRegex.framework; sourceTree = "<group>"; };
+		96E0C04D1C6D435B00CA926F /* Regex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Regex.framework; path = Carthage/Build/Mac/Regex.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96E0C0501C6D435B00CA926F /* Regex.framework in Frameworks */,
 				968A3BB21C639C8900E4AFCC /* Express.framework in Frameworks */,
 				968A3BC21C63A55D00E4AFCC /* Mustache.framework in Frameworks */,
+				96E0C04E1C6D435B00CA926F /* PathToRegex.framework in Frameworks */,
 				968A3BBF1C63A53F00E4AFCC /* BrightFutures.framework in Frameworks */,
 				968A3BC51C63A56D00E4AFCC /* Result.framework in Frameworks */,
 				968A3BC81C63A57E00E4AFCC /* SwiftyJSON.framework in Frameworks */,
@@ -110,6 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				968A3BB11C639C8900E4AFCC /* Express.framework */,
+				96E0C04C1C6D435B00CA926F /* PathToRegex.framework */,
+				96E0C04D1C6D435B00CA926F /* Regex.framework */,
 				968A3BC41C63A56D00E4AFCC /* Result.framework */,
 				968A3BC71C63A57E00E4AFCC /* SwiftyJSON.framework */,
 				968A3BC11C63A55D00E4AFCC /* Mustache.framework */,
