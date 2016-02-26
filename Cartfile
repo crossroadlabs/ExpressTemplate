@@ -1,1 +1,1 @@
-github "crossroadlabs/Express" ~> 0.2
+github "crossroadlabs/Express" "develop"
