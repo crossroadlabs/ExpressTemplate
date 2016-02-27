@@ -1,6 +1,30 @@
 <html>
-<body>
-<img src="/assets/logo.png"/>
-<h1>{{hello}}</h1>
-</body>
+    <head>
+        <title>{{hello}} {{swift}} {{express}}</title>
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:700italic,700' rel='stylesheet' type='text/css'>
+        <style>
+            body {
+                font-family: 'Source Sans Pro', sans-serif;
+                background-color: #e4e4e4;
+            }
+            .logo {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                height: 256px;
+            }
+            h1 {
+                font-weight: 700;
+                font-size: 64pt;
+                text-align: center;
+            }
+            .swift {
+                color: #f74d37;
+            }
+        </style>
+    </head>
+    <body>
+        <img class="logo" src="/assets/logo.png"/>
+        <h1>{{hello}} <i><span class="swift">{{swift}}</span> {{express}}</i></h1>
+    </body>
 </html>
