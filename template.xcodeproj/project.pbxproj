@@ -10,7 +10,6 @@
 		9609B4EA1C5FC19B00141FAB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609B4E91C5FC19B00141FAB /* main.swift */; };
 		968A3BB21C639C8900E4AFCC /* Express.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968A3BB11C639C8900E4AFCC /* Express.framework */; };
 		968A3BB31C639C8900E4AFCC /* Express.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 968A3BB11C639C8900E4AFCC /* Express.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		968A3BB61C639D7A00E4AFCC /* index.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 968A3BB51C639D7A00E4AFCC /* index.stencil */; };
 		968A3BBF1C63A53F00E4AFCC /* BrightFutures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968A3BBE1C63A53F00E4AFCC /* BrightFutures.framework */; };
 		968A3BC01C63A53F00E4AFCC /* BrightFutures.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 968A3BBE1C63A53F00E4AFCC /* BrightFutures.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		968A3BC21C63A55D00E4AFCC /* Mustache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968A3BC11C63A55D00E4AFCC /* Mustache.framework */; };
@@ -60,8 +59,8 @@
 		9609B4E91C5FC19B00141FAB /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9609B4EE1C5FC2EC00141FAB /* public */ = {isa = PBXFileReference; lastKnownFileType = folder; path = public; sourceTree = "<group>"; };
 		9609B4F11C5FC51A00141FAB /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		963ED1CA1C81E596002351EE /* views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = views; sourceTree = "<group>"; };
 		968A3BB11C639C8900E4AFCC /* Express.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Express.framework; path = Carthage/Build/Mac/Express.framework; sourceTree = "<group>"; };
-		968A3BB51C639D7A00E4AFCC /* index.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = index.stencil; sourceTree = "<group>"; };
 		968A3BBE1C63A53F00E4AFCC /* BrightFutures.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BrightFutures.framework; path = Carthage/Build/Mac/BrightFutures.framework; sourceTree = "<group>"; };
 		968A3BC11C63A55D00E4AFCC /* Mustache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mustache.framework; path = Carthage/Build/Mac/Mustache.framework; sourceTree = "<group>"; };
 		968A3BC41C63A56D00E4AFCC /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/Mac/Result.framework; sourceTree = "<group>"; };
@@ -98,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				9609B4EB1C5FC2A000141FAB /* app */,
-				9609B4EC1C5FC2BF00141FAB /* views */,
+				963ED1CA1C81E596002351EE /* views */,
 				9609B4EE1C5FC2EC00141FAB /* public */,
 				9609B4F01C5FC31800141FAB /* Frameworks */,
 				9609B4DA1C5FC0DC00141FAB /* Products */,
@@ -121,14 +120,6 @@
 				9609B4E91C5FC19B00141FAB /* main.swift */,
 			);
 			path = app;
-			sourceTree = "<group>";
-		};
-		9609B4EC1C5FC2BF00141FAB /* views */ = {
-			isa = PBXGroup;
-			children = (
-				968A3BB51C639D7A00E4AFCC /* index.stencil */,
-			);
-			path = views;
 			sourceTree = "<group>";
 		};
 		9609B4F01C5FC31800141FAB /* Frameworks */ = {
@@ -207,7 +198,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				968A3BB61C639D7A00E4AFCC /* index.stencil in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
